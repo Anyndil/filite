@@ -92,7 +92,7 @@ async fn main() {
                     .route(web::delete().to(routes::texts::delete)),
             )
     })
-    .bind(&format!("localhost:{}", port))
+    .bind(&format!("0.0.0.0:{}", port))
     .unwrap_or_else(|e| {
         eprintln!("Can't bind webserver to specified port: {}", e);
         process::exit(1);

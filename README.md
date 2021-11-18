@@ -298,6 +298,11 @@ The project is open to contributions! Before submitting a PR, make sure your cha
 2. Run `diesel database setup`
 3. Build or run with the `dev` feature enabled
 
+### Build
+
+`cargo build`
+`cargo build --release`
+
 ## License
 
 filite is licensed under the [MIT License](./LICENSE).
